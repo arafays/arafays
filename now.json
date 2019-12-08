@@ -1,4 +1,7 @@
 {
-    "version": 2,
-    "name": "next-arafays"
+	"version": 2,
+	"name": "next-arafays",
+	"env": {
+		"UA": "UA-46218532-1"
+	}
 }

@@ -1,16 +1,13 @@
 import React from 'react';
-import Head from 'next/head';
-import Nav from '../components/nav';
+import { NextSeo } from 'next-seo';
+import Page from '../../components/Page';
 
 const Home = () => (
-	<div>
-		<Head>
-			<title>Home</title>
-			<link rel="icon" href="/favicon.ico" />
-		</Head>
-
-		<Nav />
-
+	<Page>
+		<NextSeo
+			title="Abdul Rafay Shaikh"
+			description="Description of video page"
+		/>
 		<div className="hero">
 			<h1 className="title">Welcome to Next.js!</h1>
 			<p className="description">
@@ -72,7 +69,6 @@ const Home = () => (
 			}
 			.card h3 {
 				margin: 0;
-				color: #067df7;
 				font-size: 18px;
 			}
 			.card p {
@@ -82,7 +78,7 @@ const Home = () => (
 				color: #333;
 			}
 		`}</style>
-	</div>
+	</Page>
 );
 
 export default Home;
