@@ -24,7 +24,7 @@ export default class MyApp extends App {
 	}
 
 	render() {
-		Router.events.on('routeChangeComplete', url => gtag.pageview(url));
+		Router.events.on('routeChangeComplete', url => gtag.pageView(url));
 		const { Component, pageProps } = this.props;
 		return (
 			<>

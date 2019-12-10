@@ -7,12 +7,12 @@ module.exports = withPlugins(
 		withSass({
 			cssModules: true,
 			cssLoaderOptions: {
-				sourceMap: true,
+				sourceMap: false,
 				importLoaders: 1,
 				localIdentName: '[local]___[hash:base64:5]'
 			},
 			sassLoaderOptions: {
-				sourceMap: true,
+				sourceMap: false,
 				includePaths: ['styles']
 			}
 		})

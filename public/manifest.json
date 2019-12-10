@@ -1,0 +1,21 @@
+{
+	"name": "Abdul Rafay Shaikh",
+	"short_name": "arafays",
+	"start_url": "/",
+	"display": "standalone",
+	"orientation": "portrait",
+	"background_color": "#faeade",
+	"theme_color": "#31376c",
+	"icons": [
+		{
+			"src": "/assets/icons/android-chrome-192x192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/assets/icons/android-chrome-512x512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	]
+}

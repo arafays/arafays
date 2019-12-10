@@ -3,11 +3,13 @@ export default {
 		type: 'website',
 		locale: 'en_US',
 		url: 'https://www.arafays.com/',
-		site_name: 'Abdul Rafay Shaikh'
+		site_name: 'Abdul Rafay Shaikh',
+		image: '/assets/screenshot.jpg'
 	},
 	twitter: {
 		handle: '@arafays',
-		site: '@site',
-		cardType: 'summary_large_image'
+		site: '@arafays',
+		cardType: 'summary_large_image',
+		image: '/assets/screenshot.jpg'
 	}
 };

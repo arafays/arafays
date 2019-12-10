@@ -6,10 +6,9 @@ import { GA_TRACKING_ID } from '../util/analytics';
 
 const innerAnalyticsHtml = {
 	__html: `
-        window.dataLayer = window.dataLayer || [];
+		window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
         gtag('config', '${GA_TRACKING_ID}');
     `
 };
@@ -36,12 +35,13 @@ export default class extends Document {
 							justify-content: center;
 						} `}
 					</style>
+					<link rel="manifest" href="/manifest.json"></link>
 				</Head>
 				<body>
 					<Main />
 					<NextScript />
 					<Footer />
-					{/* <script dangerouslySetInnerHTML={Chat} /> */}
+					<script dangerouslySetInnerHTML={Chat} />
 				</body>
 			</html>
 		);
