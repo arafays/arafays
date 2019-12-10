@@ -1,5 +1,6 @@
 import React from 'react';
 import Document, { Head, Main, NextScript } from 'next/document';
+import Footer, { Chat } from '../components/Footer';
 
 import { GA_TRACKING_ID } from '../util/analytics';
 
@@ -14,6 +15,7 @@ const innerAnalyticsHtml = {
 };
 
 export default class extends Document {
+	componentDidMount() {}
 	render() {
 		return (
 			<html>
@@ -38,6 +40,8 @@ export default class extends Document {
 				<body>
 					<Main />
 					<NextScript />
+					<Footer />
+					{/* <script dangerouslySetInnerHTML={Chat} /> */}
 				</body>
 			</html>
 		);

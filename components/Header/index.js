@@ -61,9 +61,8 @@ const Header = () => (
 				</svg>
 			</a>
 		</Link>
-
 		<nav>
-			<Link activeClassName={style.active} href="/contact">
+			<Link className="" href="/contact">
 				<a>Connect</a>
 			</Link>
 		</nav>

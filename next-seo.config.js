@@ -1,7 +1,7 @@
 export default {
 	openGraph: {
 		type: 'website',
-		locale: 'en_us',
+		locale: 'en_US',
 		url: 'https://www.arafays.com/',
 		site_name: 'Abdul Rafay Shaikh'
 	},
