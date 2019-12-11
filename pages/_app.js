@@ -10,6 +10,7 @@ import './app.scss';
 import SEO from '../next-seo.config';
 import * as gtag from '../util/analytics';
 
+Router.events.on('routeChangeComplete', url => gtag.pageView(url));
 export default class MyApp extends App {
 	static async getInitialProps({ Component, ctx }) {
 		let pageProps = {};
@@ -24,7 +25,6 @@ export default class MyApp extends App {
 	}
 
 	render() {
-		Router.events.on('routeChangeComplete', url => gtag.pageView(url));
 		const { Component, pageProps } = this.props;
 		return (
 			<>
