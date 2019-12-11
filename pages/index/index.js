@@ -6,7 +6,7 @@ import style from './style.scss';
 const Home = () => (
 	<Page>
 		<NextSeo
-			title="Abdul Rafay Shaikh"
+			title="Abdul Rafay Shaikh - Full Stack Developer"
 			description="I am a Full-stack developer with more than 6 years of experience working with design / Advertising agencies and a Fintech company. I have been doing freelance work for more than 2 years. I have a passion for performant, modern, accessible and search engine optimized websites. "
 		/>
 
