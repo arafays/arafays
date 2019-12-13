@@ -96,12 +96,12 @@ export default class extends Document {
 						type="application/ld+json"
 						dangerouslySetInnerHTML={jsonLtd}
 					></script>
-					<script dangerouslySetInnerHTML={Chat} />
 				</Head>
 				<body>
 					<Main />
 					<NextScript />
 					<Footer />
+					<script dangerouslySetInnerHTML={Chat} />
 				</body>
 			</html>
 		);

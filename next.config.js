@@ -1,9 +1,22 @@
 const withPlugins = require('next-compose-plugins');
-const withPreact = require('./next-preact');
+// const withPreact = require('./next-preact');
 const withSass = require('@zeit/next-sass');
 const withOffline = require('next-offline');
 
-const nextConfig = {
+const nextConfig = {};
+
+module.exports = withPlugins([withOffline, withSass], {
+	cssModules: true,
+	cssLoaderOptions: {
+		sourceMap: false,
+		importLoaders: 1,
+		localIdentName: '[local]___[hash:base64:5]'
+	},
+	sassLoaderOptions: {
+		sourceMap: false,
+		includePaths: ['styles']
+	},
+
 	target: 'serverless',
 	transformManifest: manifest => ['/'].concat(manifest), // add the homepage to the cache
 	// Trying to set NODE_ENV=production when running yarn dev causes a build-time error so we
@@ -29,24 +42,4 @@ const nextConfig = {
 			}
 		]
 	}
-};
-
-module.exports = withPlugins(
-	[
-		withPreact,
-		withOffline(nextConfig),
-		withSass({
-			cssModules: true,
-			cssLoaderOptions: {
-				sourceMap: false,
-				importLoaders: 1,
-				localIdentName: '[local]___[hash:base64:5]'
-			},
-			sassLoaderOptions: {
-				sourceMap: false,
-				includePaths: ['styles']
-			}
-		})
-	],
-	{}
-);
+});
