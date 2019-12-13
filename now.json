@@ -3,5 +3,15 @@
 	"name": "next-arafays",
 	"env": {
 		"UA": "UA-46218532-1"
-	}
+	},
+	"routes": [
+		{
+			"src": "^/service-worker.js$",
+			"dest": "/_next/static/service-worker.js",
+			"headers": {
+				"cache-control": "public, max-age=43200, immutable",
+				"Service-Worker-Allowed": "/"
+			}
+		}
+	]
 }
