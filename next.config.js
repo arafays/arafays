@@ -1,11 +1,11 @@
 const withPlugins = require('next-compose-plugins');
-// const withPreact = require('./next-preact');
+const withPreact = require('./next-preact');
 const withSass = require('@zeit/next-sass');
 const withOffline = require('next-offline');
 
 const nextConfig = {};
 
-module.exports = withPlugins([withOffline, withSass], {
+module.exports = withPlugins([withPreact, withOffline, withSass], {
 	cssModules: true,
 	cssLoaderOptions: {
 		sourceMap: false,

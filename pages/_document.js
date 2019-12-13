@@ -1,6 +1,6 @@
 import React from 'react';
 import Document, { Head, Main, NextScript } from 'next/document';
-import { Chat } from '../util/chat';
+// import { Chat } from '../util/chat';
 import Footer from '../components/Footer';
 import { GA_TRACKING_ID } from '../util/analytics';
 
@@ -91,7 +91,7 @@ export default class extends Document {
 						} `}
 					</style>
 					<link rel="manifest" href="/manifest.json"></link>
-
+					<meta name="theme-color" content="#31376c" />
 					<script
 						type="application/ld+json"
 						dangerouslySetInnerHTML={jsonLtd}
@@ -101,7 +101,7 @@ export default class extends Document {
 					<Main />
 					<NextScript />
 					<Footer />
-					<script dangerouslySetInnerHTML={Chat} />
+					{/* <script dangerouslySetInnerHTML={Chat} /> */}
 				</body>
 			</html>
 		);
