@@ -3,8 +3,6 @@ const withPreact = require('./next-preact');
 const withSass = require('@zeit/next-sass');
 const withOffline = require('next-offline');
 
-const nextConfig = {};
-
 module.exports = withPlugins([withPreact, withOffline, withSass], {
 	cssModules: true,
 	cssLoaderOptions: {

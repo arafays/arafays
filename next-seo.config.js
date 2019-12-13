@@ -4,7 +4,14 @@ export default {
 		locale: 'en_US',
 		url: 'https://www.arafays.com/',
 		site_name: 'Abdul Rafay Shaikh',
-		image: '/assets/screenshot.jpg'
+		images: [
+			{
+				url: '/assets/screenshot.jpg',
+				width: 1024,
+				height: 640,
+				alt: 'Abdul Rafay Shaikh Website Screenshot'
+			}
+		]
 	},
 	twitter: {
 		handle: '@arafays',

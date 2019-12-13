@@ -55,8 +55,11 @@ const Header = () => (
 					className={style.logo}
 					xmlns="http://www.w3.org/2000/svg"
 					viewBox="0 0 1997.69 1997.33"
+					aria-labelledby="logo"
 				>
-					<title>Abdul Rafay Shaikh Logo</title>
+					<title id="logo" lang="en">
+						Abdul Rafay Shaikh Logo
+					</title>
 					<path d="M481,1032.39v334L968.61,785.23V1366.4l280.56-334L1984,2001H0V3.67H1135.61s1235.81,207.08,748.16,1523.05L998.84,391.11Z" />
 				</svg>
 			</a>
