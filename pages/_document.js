@@ -40,7 +40,7 @@ export default class extends Document {
 					<Main />
 					<NextScript />
 					<Footer />
-					<script dangerouslySetInnerHTML={Chat} />
+					{/* <script dangerouslySetInnerHTML={Chat} /> */}
 				</body>
 			</html>
 		);
