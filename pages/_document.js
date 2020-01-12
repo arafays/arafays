@@ -13,7 +13,6 @@ const jsonLtd = {
 };
 
 export default class extends Document {
-	componentDidMount() {}
 	render() {
 		return (
 			<html lang="en">
@@ -21,20 +20,18 @@ export default class extends Document {
 					{/* Global Site Tag (gtag.js) - Google Analytics */}
 					<script
 						async
-						src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+						src={
+							'https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}'
+						}
 					/>
 					<script dangerouslySetInnerHTML={innerAnalyticsHtml} />
-					<style>{` #__next {min-height: 100vh;padding-top: 124px;display: flex;flex-direction: column;align-items: center;justify-content: center;} `}</style>
+					<style>{` #__next {min-height: 100vh;padding-top: 124px;display: flex;flex-direction: column;align-items: center;justify-content: center;background: #faeade;color: #282F56;} `}</style>
 					<link rel="manifest" href="/manifest.json"></link>
 					<script
 						type="application/ld+json"
 						dangerouslySetInnerHTML={jsonLtd}
 					></script>
 					<meta name="theme-color" content="#31376c" />
-					<meta
-						property="og:image"
-						content="https://arafays.com/assets/screenshot.jpg"
-					/>
 				</Head>
 				<body>
 					<Main />

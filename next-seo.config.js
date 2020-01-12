@@ -17,6 +17,6 @@ export default {
 		handle: '@arafays',
 		site: '@arafays',
 		cardType: 'summary_large_image',
-		image: '/assets/screenshot.jpg'
+		image: 'https://www.arafays.com/assets/screenshot.jpg'
 	}
 };
