@@ -14,7 +14,6 @@
 ![HTML5](https://img.shields.io/badge/-HTML5-000?&logo=HTML5)
 ![SASS](https://img.shields.io/badge/-SASS-000?&logo=SASS)
 ![LESS](https://img.shields.io/badge/-LESS-000?&logo=LESS)
-![CSS](https://img.shields.io/badge/-CSS-000?&logo=CSS)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-000?&logo=TypeScript)
 
 ### Technologies
