@@ -27,7 +27,7 @@
 
 ### Most Used Languages
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=arafays&layout=compact&theme=dark&hide_border=true)]
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=arafays&layout=compact&theme=black-ice&hide_border=true&stroke=0000&background=0D1117&ring=e05397&fire=e05397&currStreakLabel=e05397&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
 
 ### 🔥 Github Streaks
@@ -35,7 +35,7 @@
 
 ### ⚡ Github Stats:
 
-[![Rafays's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=arafays&show_icons=true&theme=dark&hide_border=true#gh-dark-mode-only)](https://github.com/arafays/github-readme-stats#gh-dark-mode-only)
+[![Rafays's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=arafays&show_icons=true&theme=black-ice&hide_border=true&stroke=0000&background=0D1117&ring=e05397&fire=e05397&currStreakLabel=e05397&bg_color=30,e96443,904e95&title_color=fff&text_color=fff#gh-dark-mode-only)](https://github.com/arafays/github-readme-stats#gh-dark-mode-only)
 [![Rafays's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=arafays&show_icons=true&theme=default&hide_border=true#gh-light-mode-only)](https://github.com/arafays/github-readme-stats#gh-light-mode-only)
 
 
