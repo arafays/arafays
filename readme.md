@@ -1,6 +1,6 @@
 ### Hi there, I'm Abdul Rafay Shaikh 👋
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/arafyays?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/intent/user?screen_name=arafays)
+[![Twitter Follow](https://img.shields.io/twitter/follow/arafays?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/intent/user?screen_name=arafays)
 
 
 <p align='center'>
