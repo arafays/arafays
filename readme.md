@@ -13,15 +13,20 @@
 ![HTML5](https://img.shields.io/badge/-HTML5-000?&logo=HTML5)
 ![SASS](https://img.shields.io/badge/-SASS-000?&logo=SASS)
 ![LESS](https://img.shields.io/badge/-LESS-000?&logo=LESS)
+![PostCSS](https://img.shields.io/badge/-PostCSS-000?&logo=PostCSS)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-000?&logo=TypeScript)
 
 ### Technologies
 
+![Netlify](https://img.shields.io/badge/-Netlify-000?&logo=Netlify)
+![Vercel](https://img.shields.io/badge/-Vercel-000?&logo=Vercel)
 ![Node.js](https://img.shields.io/badge/-Node.js-000?&logo=node.js)
 ![Express](https://img.shields.io/badge/-Express-000?&logo=express)
 ![Mongodb](https://img.shields.io/badge/-Mongodb-000?&logo=Mongodb)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-000?&logo=PostgreSQL)
 ![FIREBASE](https://img.shields.io/badge/-FIREBASE-000?&logo=FIREBASE)
-![NETLIFY](https://img.shields.io/badge/-NETLIFY-000?&logo=NETLIFY)
+![Vue](https://img.shields.io/badge/-Vuej.s-000?&logo=Vue.js)
+![React](https://img.shields.io/badge/-React-000?&logo=react)
 
 
 ### ⚡ Github Stats:
