@@ -1,6 +1,6 @@
 ### Hi there, I'm Abdul Rafay Shaikh 👋
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/arafays?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/intent/user?screen_name=arafays)
+[![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/arafays)](https://twitter.com/intent/user?screen_name=arafays)
 
 <p align='center'>
     <img src="https://media2.giphy.com/media/Sg4DwEJrCpGIU/giphy.gif">
@@ -21,7 +21,6 @@
 ![Vercel](https://img.shields.io/badge/-Vercel-000?&logo=Vercel)
 ![FIREBASE](https://img.shields.io/badge/-FIREBASE-000?&logo=FIREBASE)
 
-
 ![Node.js](https://img.shields.io/badge/-Node.js-000?&logo=node.js)
 ![Express](https://img.shields.io/badge/-Express-000?&logo=express)
 
@@ -32,8 +31,6 @@
 ![React](https://img.shields.io/badge/-React-000?&logo=react)
 ![Next.js](https://img.shields.io/badge/-Next-000?&logo=next.js)
 ![Nuxt.js](https://img.shields.io/badge/-Nuxt-000?&logo=nuxt.js)
-
-
 
 ### Tools & Libraries
 
