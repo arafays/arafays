@@ -1,10 +1,11 @@
-### Hi there, I'm Abdul Rafay Shaikh 👋
+<p align='left'>
+    <img src="https://media2.giphy.com/media/Sg4DwEJrCpGIU/giphy.gif">
+</p>
+
+### I'm Abdul Rafay Shaikh 👋
 
 [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/arafays)](https://twitter.com/intent/user?screen_name=arafays)
 
-<p align='center'>
-    <img src="https://media2.giphy.com/media/Sg4DwEJrCpGIU/giphy.gif">
-</p>
 
 ### Languages
 
